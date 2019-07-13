@@ -1,0 +1,136 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+  /* Navigation*/
+
+  /*.carousel,*/
+  /*.carousel .carousel-inner,*/
+  /*.carousel .carousel-inner .active,*/
+  /*.carousel .carousel-inner .carousel-item,*/
+  /*.view,body,html{*/
+  /*  height:100%*/
+  /*}*/
+  /*.navbar{*/
+  /*  background-color:rgba(0,0,0,.2);*/
+  /*}*/
+  /*.page-footer,*/
+  /*.top-nav-collapse{*/
+  /*  background-color:#1C2331;*/
+  /*}*/
+  /*@media only screen and (max-width:768px){*/
+  /*  .navbar{*/
+  /*    background-color:#1C2331;*/
+  /*  }*/
+  /*}*/
+
+
+  .navbar {
+    /*background-color: transparent;*/
+    background-color:rgba(0,0,0,.3);
+  }
+  .scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    /*background-color: #667490;*/
+
+    background-color: #6351ce;
+  }
+  footer.page-footer {
+    background-color: #667490;
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      /*background-color: #667490;*/
+      background-color: #6351ce;
+    }
+  }
+
+  html,
+  body,
+  .view {
+    height: 100%;
+  }
+
+  @media (max-width: 740px) {
+    html,
+    body,
+    .view {
+      height: 1000px;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    .view {
+      height: 650px;
+    }
+  }
+/* Necessary for full page carousel*/
+  /*@media (max-width: 740px) {*/
+
+  /*  html,*/
+  /*  body,*/
+  /*  !* header, *!*/
+  /*  .carousel {*/
+  /*    height: 100vh;*/
+  /*  }*/
+  /*}*/
+
+  /*@media (min-width: 800px) and (max-width: 850px) {*/
+
+  /*  html,*/
+  /*  body,*/
+  /*  !* header, *!*/
+  /*  .carousel {*/
+  /*    height: 100vh;*/
+  /*  }*/
+  /*}*/
+
+  /*!* Carousel*!*/
+  /*.carousel,*/
+  /*.carousel-item,*/
+  /*.carousel-item.active {*/
+  /*  height: 100%;*/
+  /*}*/
+  /*.carousel-inner {*/
+  /*  height: 100%;*/
+  /*}*/
+
+
+  /* Half Page Carousel itself*/
+
+  .carousel {
+    height: 50%;
+  }
+  .carousel .carousel-inner {
+    height: 100%;
+  }
+  .carousel .carousel-inner .carousel-item,
+  .carousel .carousel-inner .active {
+    height: 100%;
+  }
+  /* Adjustment for mobile devices*/
+  @media (max-width: 776px) {
+    .carousel {
+      height: 100%;
+    }
+  }
+
+  .carousel-item:nth-child(1) {
+    background-image: url("../images/94.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(2) {
+    background-image: url("../images/93.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(3) {
+    background-image: url("../images/nature7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
